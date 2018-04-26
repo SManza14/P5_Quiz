@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "start": "heroku local:start",
-    "start_old": "node ./bin/www",
-    "super": "supervisor ./bin/www"
+    "super": "supervisor ./bin/www",
+    "start_old": "node ./bin/www"
   },
   "engines": {
-    "node": "8.9.1",
+    "node": "8.11.1",
     "npm": "5.6.0"
   },
   "dependencies": {
